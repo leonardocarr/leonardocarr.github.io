@@ -1,0 +1,142 @@
+/* Largura ate 600 */
+@media (max-width: 621px) {
+  .header-intro-txt p {
+    font-size: 1.2rem;
+  }
+  .header-intro-txt h2 {
+    text-indent: 0px;
+  }
+
+  .header-intro-txt h2::before {
+    display: none;
+  }
+
+  /* SOBRE */
+  .main-sobre {
+    margin: 0px;
+  }
+
+  .main-sobre p {
+    font-size: 1.2rem;
+  }
+
+  /* PROJETO */
+  .projeto-txt {
+    margin-bottom: 0px;
+  }
+}
+
+/* Largura ate 900 */
+@media (max-width: 910px) {
+  p {
+    font-size: 1.5rem !important;
+  }
+
+  .nav-item {
+    flex: 1 1 100px;
+  }
+
+  /* Banner grid */
+
+  .header-intro {
+    grid-template-columns: 1fr;
+  }
+
+  /* Texto */
+  .header-intro-txt {
+    margin: none;
+    justify-items: center;
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  /* DETALHE */
+  .header-intro-txt h2::before {
+    width: 210px;
+    top: 37px;
+    left: 192px;
+  }
+
+  /* Banner foto */
+  .header-intro-img {
+    display: none;
+  }
+
+  /* ICONES */
+  .header-icons {
+    display: none;
+  }
+
+  /* BTN cv */
+  .download-cv a {
+    padding: 20px 40px;
+    font-size: 1rem;
+    transition: ease-in-out 300ms;
+  }
+
+  /* SOBRE MIM */
+  .main-grid {
+    grid-template-columns: 1fr;
+    text-align: left;
+    justify-content: center;
+    display: flex;
+  }
+
+  .main-grid h1 {
+    text-align: center;
+  }
+
+  .main-img {
+    display: none;
+  }
+
+  /* FORMACAO */
+  .bg-formacao {
+    padding: 20px 0px;
+  }
+
+  .grid-formacao {
+    grid-template-columns: 1fr;
+    gap: 0px;
+  }
+
+  .formacao-textos {
+    padding-bottom: 30px;
+  }
+
+  /* IMG */
+  .grid-formacao img {
+    display: none;
+  }
+
+  /* Contato */
+  .grid-contato {
+    display: flex;
+    padding: 0px 0px;
+    margin: 20px 0px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contato-info {
+    text-align: center;
+  }
+  .contato-info h2 {
+    padding-bottom: 40px;
+    padding-top: 0px;
+  }
+
+  .contato-grid {
+    text-align: left;
+  }
+
+  .contato-img {
+    display: none;
+  }
+
+  /* Projetos */
+}
+
+/* Largura ate 12000 */
+@media (max-width: 1200px) {
+}

@@ -1,0 +1,49 @@
+.bg-formacao {
+  padding: 2rem 0rem;
+}
+
+.grid-contato h2 {
+  font-weight: 500;
+  color: #303030 !important;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "Poppins", sans-serif !important;
+  padding: 4rem 0rem;
+}
+
+.grid-contato {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  padding: 4rem 0rem;
+}
+
+.contato-img {
+  display: flex;
+  justify-content: center;
+}
+
+.contato-info h2 {
+  display: flex;
+  color: #595959;
+  font-weight: 500;
+  font-size: 2.7rem;
+  text-transform: capitalize;
+  align-items: left;
+}
+
+.contato-grid {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 40px;
+  align-items: center;
+}
+
+.contato-grid a {
+  color: #595959;
+  font-size: 1.2rem;
+}
+
+.contato-grid a:hover {
+  color: #201dbe;
+}
